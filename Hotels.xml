@@ -16,7 +16,7 @@
   <Hotel Rating="4.5">
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
