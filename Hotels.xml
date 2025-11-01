@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Hilton Garden Inn Scottsdale Old Town</Name>
+    <Phone>480-945-7666</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7324</Number>
+      <Street>E Indian School Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Marriott Marquis Houston</Name>
+    <Phone>713-654-1777</Phone>
+    <Address>
+      <Number>1777</Number>
+      <Street>Walker St</Street>
+      <City>Houston</City>
+      <State>TX</State>
+      <Zip>77010</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Sheraton Grand Chicago Riverwalk</Name>
+    <Phone>312-464-1000</Phone>
+    <Phone>888-625-5144</Phone>
+    <Address>
+      <Number>301</Number>
+      <Street>E North Water St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>The Ritz-Carlton New Orleans</Name>
+    <Phone>504-524-1331</Phone>
+    <Address>
+      <Number>921</Number>
+      <Street>Canal St</Street>
+      <City>New Orleans</City>
+      <State>LA</State>
+      <Zip>70112</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Fairmont San Francisco</Name>
+    <Phone>415-772-5000</Phone>
+    <Address NearestAirport="SFO">
+      <Number>950</Number>
+      <Street>Mason St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>The Peabody Memphis</Name>
+    <Phone>901-529-4000</Phone>
+    <Address>
+      <Number>149</Number>
+      <Street>Union Ave</Street>
+      <City>Memphis</City>
+      <State>TN</State>
+      <Zip>38103</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Omni Boston Hotel at the Seaport</Name>
+    <Phone>617-476-6664</Phone>
+    <Address>
+      <Number>450</Number>
+      <Street>Summer St</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02210</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>The Broadmoor</Name>
+    <Phone>719-577-5775</Phone>
+    <Address NearestAirport="Colorado Springs Airport">
+      <Number>1</Number>
+      <Street>Lake Ave</Street>
+      <City>Colorado Springs</City>
+      <State>CO</State>
+      <Zip>80906</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
