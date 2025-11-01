@@ -16,7 +16,7 @@
   <Hotel Rating="4.5">
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
@@ -77,7 +77,7 @@
   <Hotel Rating="4.0">
     <Name>Fairmont San Francisco</Name>
     <Phone>415-772-5000</Phone>
-    <Address NearestAirport="SFO">
+    <Address>
       <Number>950</Number>
       <Street>Mason St</Street>
       <City>San Francisco</City>
