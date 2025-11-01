@@ -2,13 +2,11 @@
 <!-- ERROR #1: Root element should be <Hotels>, but we intentionally use <Hotel> -->
 <Hotel>
 
-  <!-- This hotel is fine structurally (helps the validator progress) -->
+  <!-- Valid-ish first entry to let the parser proceed -->
   <Hotel Rating="4.2">
-    <!-- ERROR #5 will occur in a different hotel; this one has one Name only -->
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <!-- NearestAirport present here (required in XSD) -->
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -18,10 +16,10 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR #3: Missing a Phone element entirely for this hotel -->
+  <!-- ERROR #3: Missing Phone entirely -->
   <Hotel Rating="4.5">
     <Name>Hyatt Regency Phoenix</Name>
-    <!-- No <Phone> element here -->
+    <!-- no <Phone> -->
     <Address NearestAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
@@ -31,14 +29,13 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR #2: Required attribute (NearestAirport) is missing on Address -->
+  <!-- ERROR #2: Missing required attribute (Rating) -->
   <Hotel>
-    <!-- ERROR #5: Duplicate Name elements for this hotel -->
+    <!-- ERROR #5: Two Name elements -->
     <Name>Sheraton Grand Chicago Riverwalk</Name>
     <Name>Sheraton Grand Chicago Riverwalk</Name>
     <Phone>312-464-1000</Phone>
     <Address>
-      <!-- NearestAirport attribute omitted on purpose to trigger "required attribute missing" -->
       <Number>301</Number>
       <Street>E North Water St</Street>
       <City>Chicago</City>
@@ -47,8 +44,7 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR #4: Address has NO closing tag (well-formedness error).
-       Put this one LAST, because the parser will stop at this fatal error. -->
+  <!-- ERROR #4: Unclosed Address tag (put last; fatal well-formedness error) -->
   <Hotel Rating="4.0">
     <Name>The Peabody Memphis</Name>
     <Phone>901-529-4000</Phone>
@@ -58,7 +54,8 @@
       <City>Memphis</City>
       <State>TN</State>
       <Zip>38103</Zip>
-    <!-- NO </Address> closing tag here -->
+    <!-- NO </Address> closing tag -->
   </Hotel>
 
 </Hotel>
+

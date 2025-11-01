@@ -49,7 +49,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.3">
     <Name>Sheraton Grand Chicago Riverwalk</Name>
     <Phone>312-464-1000</Phone>
     <Phone>888-625-5144</Phone>
@@ -74,7 +74,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Fairmont San Francisco</Name>
     <Phone>415-772-5000</Phone>
     <Address NearestAirport="SFO">
@@ -98,7 +98,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.2">
     <Name>Omni Boston Hotel at the Seaport</Name>
     <Phone>617-476-6664</Phone>
     <Address>
