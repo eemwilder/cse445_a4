@@ -77,7 +77,7 @@
   <Hotel Rating="4.0">
     <Name>Fairmont San Francisco</Name>
     <Phone>415-772-5000</Phone>
-    <Address>
+    <Address NearestAirport="SFO">
       <Number>950</Number>
       <Street>Mason St</Street>
       <City>San Francisco</City>
